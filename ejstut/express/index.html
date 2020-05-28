@@ -16,15 +16,20 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <style>
-      body {
-        background-color: blue;
-        color: white;
-      }
-    </style>
   </head>
   <body>
-    <h1><%=title%></h1>
+    <div class="container">
+      <h1>hello world</h1>
+      <form
+        action="/upload"
+        id="uploadForm"
+        enctype="multipart/form-data"
+        method="POST"
+      >
+        <input type="file" name="currentFile" />
+        <input type="submit" value="Upload File" name="submit" />
+      </form>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

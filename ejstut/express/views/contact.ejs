@@ -16,16 +16,17 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <style>
-      body {
-        background-color: blue;
-        color: white;
-      }
-    </style>
   </head>
   <body>
-    <h1><%=title%></h1>
+    <div class="form-group">
+      <form action="/contact" method="post"></form>
+      <label>Username:</label><input type="text" name="" id="" />
+      <br />
+      <label>Password:</label> <input type="password" name="" id="" />
+      <br />
 
+      <input type="submit" value="add" />
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
