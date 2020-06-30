@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.scene {
+  width: 50vw;
+  height: 80vh;
+  border: 1px black solid;
+  background-image: url("road.jpeg");
+  background-size: cover;
+  margin: 5rem auto;
+  position: relative;
+  background-repeat: repeat-x;
+}
+.surface {
+  image-orientation: flip;
+  margin-top: 55px;
+  margin-right: 200px;
+  margin-bottom: 0px;
+  margin-left: 230px;
+  position: relative;
+}
+.car {
+  margin-top: 10px;
+  margin-right: 500px;
+  margin-bottom: 800px;
+  margin-left: 140px;
+  position: relative;
+  display: block;
+  bottom: 0%;
+  left: 0%;
+  animation: car 2s linear infinite;
+}
+@keyframes move {
+  100% {
+    transform: translateX(-200px);
+  }
+}
+
+@keyframes car {
+  100% {
+    transform: translateY(-6px);
+  }
+  50% {
+    transform: translateY(-2px);
+  }
+  0% {
+    transform: translateY(-6px);
+  }
+}
+@keyframes forwardmove {
+  100% {
+    transform: translateY(-6px);
+  }
+  50% {
+    transform: translateY(-1px);
+  }
+  0% {
+    transform: translateY(-6px);
+  }
+}
+.go {
+  animation: move 2s linear infinite;
+}
+.forward {
+  animation: forwardmove 2s linear infinite;
+}
