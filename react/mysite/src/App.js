@@ -1,7 +1,7 @@
 import React from "react";
 import avataars from "./images/avataars.svg";
-import cabin from "./images/cabin.png";
-import cake from "./images/cake.png";
+import cabin from "./images/movies.png";
+import cake from "./images/weather.png";
 import circus from "./images/circus.png";
 import game from "./images/game.png";
 import submarine from "./images/submarine.png";
@@ -107,6 +107,9 @@ function App() {
                   </div>
                   <img className="img-fluid" src={cabin} alt="" />
                 </div>
+                <a href="https://www.github.com/javascript/react/moviecms">
+                  View here
+                </a>
               </div>
               <div className="col-md-6 col-lg-4 mb-5">
                 <div
@@ -121,6 +124,9 @@ function App() {
                   </div>
                   <img className="img-fluid" src={cake} alt="" />
                 </div>
+                <a href="https://github.com/pavi199226/javascript/tree/master/weatherapp">
+                  View here
+                </a>
               </div>
               <div className="col-md-6 col-lg-4 mb-5">
                 <div
@@ -149,6 +155,9 @@ function App() {
                   </div>
                   <img className="img-fluid" src={game} alt="" />
                 </div>
+                <a href="https://github.com/pavi199226/javascript/tree/master/car">
+                  View here
+                </a>
               </div>
               <div className="col-md-6 col-lg-4 mb-5 mb-md-0">
                 <div
@@ -211,7 +220,8 @@ function App() {
             <div className="text-center mt-4">
               <a
                 className="btn btn-xl btn-outline-light"
-                href="https://drive.google.com/drive/u/1/folders/1pUcAWWUh-BDNtAXwJf54qE3gc6ejYOqo/Pavithra_Govindan_Vnv_CV.pdf"
+                href="https://drive.google.com/drive/u/1/my-drive/Resume/Pavithra_Govindan_VnV_CV.pdf"
+                download
               >
                 <i className="fa fa-download mr-2"></i>
                 CV Download!
@@ -237,6 +247,7 @@ function App() {
                   id="contactForm"
                   name="sentMessage"
                   novalidate="novalidate"
+                  action="mailto:pavi199226@gmail.com"
                 >
                   <div className="control-group">
                     <div className="form-group floating-label-form-group controls mb-0 pb-2">
@@ -244,7 +255,7 @@ function App() {
                       <input
                         className="form-control"
                         id="name"
-                        type="text"
+                        type=""
                         placeholder="Name"
                         required="required"
                         data-validation-required-message="Please enter your name."
@@ -316,40 +327,48 @@ function App() {
               <div className="col-lg-4 mb-5 mb-lg-0">
                 <h4 className="text-uppercase mb-4">Location</h4>
                 <p className="lead mb-0">
-                  2215 John Daniel Drive
+                  1050 Ixelles
                   <br />
-                  Clark, MO 65243
+                  Brussels,Belgique
                 </p>
               </div>
               <div className="col-lg-4 mb-5 mb-lg-0">
                 <h4 className="text-uppercase mb-4">Around the Web</h4>
-                <a className="btn btn-outline-light btn-social mx-1" href="#!">
-                  <i className="fa fa-fw fa-facebook-f"></i>
+                <a
+                  className="btn btn-outline-light btn-social mx-1"
+                  href="https://www.facebook.com/pgjanu"
+                >
+                  <i className="fa fa-facebook"></i>
                 </a>
-                <a className="btn btn-outline-light btn-social mx-1" href="#!">
+                <a
+                  className="btn btn-outline-light btn-social mx-1"
+                  href="https://twitter.com/janaki2692"
+                >
                   <i className="fa fa-fw fa-twitter"></i>
                 </a>
-                <a className="btn btn-outline-light btn-social mx-1" href="#!">
-                  <i className="fa fa-fw fa-linkedin-in"></i>
+                <a
+                  className="btn btn-outline-light btn-social mx-1"
+                  href="https://www.linkedin.com/in/pavi199226"
+                >
+                  <i className="fa fa-linkedin"></i>
                 </a>
-                <a className="btn btn-outline-light btn-social mx-1" href="#!">
-                  <i className="fa fa-fw fa-dribbble"></i>
+                <a
+                  className="btn btn-outline-light btn-social mx-1"
+                  href="https://www.github.com/pavi199226"
+                >
+                  <i className="fa fa-github"></i>
                 </a>
               </div>
               <div className="col-lg-4">
-                <h4 className="text-uppercase mb-4">About Freelancer</h4>
-                <p className="lead mb-0">
-                  Freelance is a free to use, MIT licensed Bootstrap theme
-                  created by
-                  <a href="http://startbootstrap.com">Start Bootstrap</a>.
-                </p>
+                <h4 className="text-uppercase mb-4"></h4>
+                <p className="lead mb-0"></p>
               </div>
             </div>
           </div>
         </footer>
         <div className="copyright py-4 text-center text-white">
           <div className="container">
-            <small>Copyright © Your Website 2020</small>
+            <small>Copyright © pavi2020</small>
           </div>
         </div>
         <div className="scroll-to-top d-lg-none position-fixed">
@@ -402,16 +421,9 @@ function App() {
                         src={cabin}
                         alt=""
                       />
-                      <p className="mb-5">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Mollitia neque assumenda ipsam nihil, molestias
-                        magnam, recusandae quos quis inventore quisquam velit
-                        asperiores, vitae? Reprehenderit soluta, eos quod
-                        consequuntur itaque. Nam.
-                      </p>
+                      <p className="mb-5"></p>
                       <button className="btn btn-primary" data-dismiss="modal">
                         <i className="fa fa-times fa-fw"></i>
-                        Close Window
                       </button>
                     </div>
                   </div>
@@ -582,13 +594,7 @@ function App() {
                         src={game}
                         alt=""
                       />
-                      <p className="mb-5">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Mollitia neque assumenda ipsam nihil, molestias
-                        magnam, recusandae quos quis inventore quisquam velit
-                        asperiores, vitae? Reprehenderit soluta, eos quod
-                        consequuntur itaque. Nam.
-                      </p>
+                      <a href="https://github.com/pavi199226/javascript/tree/master/car" />
                       <button className="btn btn-primary" data-dismiss="modal">
                         <i className="fa fa-times fa-fw"></i>
                         Close Window
