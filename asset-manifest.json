@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/project/static/css/main.5286df54.chunk.css",
+    "main.js": "/project/static/js/main.5e49339d.chunk.js",
+    "main.js.map": "/project/static/js/main.5e49339d.chunk.js.map",
+    "runtime-main.js": "/project/static/js/runtime-main.102d06f0.js",
+    "runtime-main.js.map": "/project/static/js/runtime-main.102d06f0.js.map",
+    "static/js/2.1ec8775e.chunk.js": "/project/static/js/2.1ec8775e.chunk.js",
+    "static/js/2.1ec8775e.chunk.js.map": "/project/static/js/2.1ec8775e.chunk.js.map",
+    "index.html": "/project/index.html",
+    "precache-manifest.fb77c83cae77e5ef48bfb1607adebe26.js": "/project/precache-manifest.fb77c83cae77e5ef48bfb1607adebe26.js",
+    "service-worker.js": "/project/service-worker.js",
+    "static/css/main.5286df54.chunk.css.map": "/project/static/css/main.5286df54.chunk.css.map",
+    "static/js/2.1ec8775e.chunk.js.LICENSE.txt": "/project/static/js/2.1ec8775e.chunk.js.LICENSE.txt",
+    "static/media/avataars.svg": "/project/static/media/avataars.6a5e617a.svg",
+    "static/media/circus.png": "/project/static/media/circus.e27c88e5.png",
+    "static/media/game.png": "/project/static/media/game.107d31e8.png",
+    "static/media/App.css": "/project/static/media/img2.dfa7703b.jpg",
+    "static/media/safe.png": "/project/static/media/safe.7dfdcf55.png",
+    "static/media/submarine.png": "/project/static/media/submarine.8fad4ff9.png",
+    "static/media/weather.png": "/project/static/media/weather.70c4167d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.102d06f0.js",
+    "static/js/2.1ec8775e.chunk.js",
+    "static/css/main.5286df54.chunk.css",
+    "static/js/main.5e49339d.chunk.js"
+  ]
+}
